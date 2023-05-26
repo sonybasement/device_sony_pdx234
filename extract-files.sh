@@ -15,10 +15,10 @@ fi
 set -e
 
 # Required!
-export DEVICE=pdx215
-export DEVICE_COMMON=sm8350-common
+export DEVICE=pdx234
+export DEVICE_COMMON=sm8550-common
 export VENDOR=sony
 
-export DEVICE_BRINGUP_YEAR=2022
+export DEVICE_BRINGUP_YEAR=2023
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
